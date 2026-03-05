@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc0f30ad4a084deea9dae0faaec0adb, type: 3}
+  m_Name: NewBlockGraph
+  m_EditorClassIdentifier: Assembly-CSharp::BlockSystem.Core.BlockGraph
+  blocks:
+  - rid: 4210444597739127085
+  connections: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 4210444597739127085
+      type: {class: AIBlock, ns: BlockSystem.Blocks, asm: Assembly-CSharp}
+      data:
+        id: ceb47c2f
+        blockType: AIBlock
+        editorPosition: {x: 218, y: 368.5}
+        inputs:
+        - rid: 4210444597739127086
+        - rid: 4210444597739127087
+        outputs:
+        - rid: 4210444597739127088
+        prompt: spawn a cube then move it up by 2 units with speed of 10
+        aiMode: 0
+        aiModel: gpt-3.5-turbo
+        temperature: 0.7
+        maxTokens: 150
+    - rid: 4210444597739127086
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 5a6eacfe
+        name: Start
+        direction: 0
+        type: 0
+    - rid: 4210444597739127087
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: f7fc8ad1
+        name: Target
+        direction: 0
+        type: 5
+    - rid: 4210444597739127088
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 928421be
+        name: Next
+        direction: 1
+        type: 0
