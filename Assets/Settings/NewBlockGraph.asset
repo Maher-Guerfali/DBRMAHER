@@ -12,8 +12,240 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fc0f30ad4a084deea9dae0faaec0adb, type: 3}
   m_Name: NewBlockGraph
   m_EditorClassIdentifier: Assembly-CSharp::BlockSystem.Core.BlockGraph
-  blocks: []
-  connections: []
+  blocks:
+  - rid: 4210444597739127465
+  - rid: 4210444597739127470
+  - rid: 4210444597739127472
+  - rid: 4210444597739127474
+  - rid: 4210444597739127479
+  - rid: 4210444597739127483
+  connections:
+  - fromBlockId: 1f7230c0
+    fromPortName: Value
+    toBlockId: 6d3c5b12
+    toPortName: A
+  - fromBlockId: 511e0619
+    fromPortName: Value
+    toBlockId: 6d3c5b12
+    toPortName: B
+  - fromBlockId: 6d3c5b12
+    fromPortName: Next
+    toBlockId: e5845465
+    toPortName: Start
+  - fromBlockId: e5845465
+    fromPortName: Next
+    toBlockId: bf2ea597
+    toPortName: In
+  - fromBlockId: bf2ea597
+    fromPortName: Out
+    toBlockId: 930e1109
+    toPortName: Start
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 4210444597739127465
+      type: {class: CompareBlock, ns: BlockSystem.Blocks, asm: Assembly-CSharp}
+      data:
+        id: 6d3c5b12
+        blockType: CompareBlock
+        editorPosition: {x: 127.5, y: -221.5}
+        inputs:
+        - rid: 4210444597739127490
+        - rid: 4210444597739127491
+        - rid: 4210444597739127492
+        outputs:
+        - rid: 4210444597739127493
+        operation: 2
+        valueA: 0
+        valueB: 0
+    - rid: 4210444597739127470
+      type: {class: FloatValue, ns: BlockSystem.Blocks, asm: Assembly-CSharp}
+      data:
+        id: 1f7230c0
+        blockType: FloatValue
+        editorPosition: {x: -280, y: -232}
+        inputs: []
+        outputs:
+        - rid: 4210444597739127471
+        value: 2
+    - rid: 4210444597739127471
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 082c3f97
+        name: Value
+        direction: 1
+        type: 1
+    - rid: 4210444597739127472
+      type: {class: FloatValue, ns: BlockSystem.Blocks, asm: Assembly-CSharp}
+      data:
+        id: 511e0619
+        blockType: FloatValue
+        editorPosition: {x: -280, y: -103.5}
+        inputs: []
+        outputs:
+        - rid: 4210444597739127473
+        value: 0
+    - rid: 4210444597739127473
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 8214dfce
+        name: Value
+        direction: 1
+        type: 1
+    - rid: 4210444597739127474
+      type: {class: SpawnBlock, ns: BlockSystem.Blocks, asm: Assembly-CSharp}
+      data:
+        id: e5845465
+        blockType: SpawnBlock
+        editorPosition: {x: 412, y: -256.5}
+        inputs:
+        - rid: 4210444597739127475
+        - rid: 4210444597739127476
+        outputs:
+        - rid: 4210444597739127477
+        - rid: 4210444597739127478
+        shape: 0
+        position: {x: 0, y: 0, z: 0}
+        positionReference: {fileID: 0}
+        objectName: box
+    - rid: 4210444597739127475
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: d8adca27
+        name: Start
+        direction: 0
+        type: 0
+    - rid: 4210444597739127476
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 8e437a0c
+        name: Position
+        direction: 0
+        type: 2
+    - rid: 4210444597739127477
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 273bda1b
+        name: Next
+        direction: 1
+        type: 0
+    - rid: 4210444597739127478
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 8f855e97
+        name: Object
+        direction: 1
+        type: 5
+    - rid: 4210444597739127479
+      type: {class: DelayBlock, ns: BlockSystem.Blocks, asm: Assembly-CSharp}
+      data:
+        id: bf2ea597
+        blockType: DelayBlock
+        editorPosition: {x: 726.5, y: -256.5}
+        inputs:
+        - rid: 4210444597739127480
+        - rid: 4210444597739127481
+        outputs:
+        - rid: 4210444597739127482
+        duration: 3
+        timeMode: 0
+    - rid: 4210444597739127480
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 93d54f04
+        name: In
+        direction: 0
+        type: 0
+    - rid: 4210444597739127481
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 96ed2f66
+        name: Delay
+        direction: 0
+        type: 1
+    - rid: 4210444597739127482
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: ed59ba2f
+        name: Out
+        direction: 1
+        type: 0
+    - rid: 4210444597739127483
+      type: {class: MoveBlock, ns: BlockSystem.Blocks, asm: Assembly-CSharp}
+      data:
+        id: 930e1109
+        blockType: MoveBlock
+        editorPosition: {x: 1027, y: -256.5}
+        inputs:
+        - rid: 4210444597739127484
+        - rid: 4210444597739127485
+        - rid: 4210444597739127486
+        - rid: 4210444597739127487
+        outputs:
+        - rid: 4210444597739127488
+        offset: {x: 10, y: 10, z: 0}
+        speed: 20
+        targetName: box
+    - rid: 4210444597739127484
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 578e10cd
+        name: Start
+        direction: 0
+        type: 0
+    - rid: 4210444597739127485
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 137d15e1
+        name: Target
+        direction: 0
+        type: 5
+    - rid: 4210444597739127486
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 05f8af64
+        name: Offset
+        direction: 0
+        type: 2
+    - rid: 4210444597739127487
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 5e60feb5
+        name: Speed
+        direction: 0
+        type: 1
+    - rid: 4210444597739127488
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: d8091cce
+        name: Next
+        direction: 1
+        type: 0
+    - rid: 4210444597739127490
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: fb6dfddd
+        name: Start
+        direction: 0
+        type: 0
+    - rid: 4210444597739127491
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 5ee97498
+        name: A
+        direction: 0
+        type: 1
+    - rid: 4210444597739127492
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 85ca8869
+        name: B
+        direction: 0
+        type: 1
+    - rid: 4210444597739127493
+      type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
+      data:
+        id: 378f92f9
+        name: Next
+        direction: 1
+        type: 0

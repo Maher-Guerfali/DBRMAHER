@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: BlockIconConfig
   m_EditorClassIdentifier: Assembly-CSharp-Editor::BlockSystem.Editor.BlockIconConfig
   iconMappings: []
-  defaultIcon: {fileID: 0}
+  defaultIcon: {fileID: 21300000, guid: 944ab2b0e725f4e989cf7eab196c0cc4, type: 3}

@@ -555,6 +555,30 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -6999809747256596029, guid: 6e3e822fbc3e543d3a9e7414538e22ce, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.42045894
+      objectReference: {fileID: 0}
+    - target: {fileID: -6999809747256596029, guid: 6e3e822fbc3e543d3a9e7414538e22ce, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.42045894
+      objectReference: {fileID: 0}
+    - target: {fileID: -6999809747256596029, guid: 6e3e822fbc3e543d3a9e7414538e22ce, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.42045894
+      objectReference: {fileID: 0}
+    - target: {fileID: -6999809747256596029, guid: 6e3e822fbc3e543d3a9e7414538e22ce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.9283
+      objectReference: {fileID: 0}
+    - target: {fileID: -6999809747256596029, guid: 6e3e822fbc3e543d3a9e7414538e22ce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3094
+      objectReference: {fileID: 0}
+    - target: {fileID: -6999809747256596029, guid: 6e3e822fbc3e543d3a9e7414538e22ce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.53942
+      objectReference: {fileID: 0}
     - target: {fileID: -6996996104316741210, guid: 6e3e822fbc3e543d3a9e7414538e22ce, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3131,7 +3155,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 828563920}
-  - component: {fileID: 828563919}
+  - component: {fileID: 828563921}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3139,20 +3163,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &828563919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 828563918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34bd985d85d0d4258ae345c1821fa5a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  graph: {fileID: 11400000, guid: 19b6e3499555347599f391d223d3924d, type: 2}
-  importPath: Assets/graph_export.json
 --- !u!4 &828563920
 Transform:
   m_ObjectHideFlags: 0
@@ -3168,6 +3178,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &828563921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828563918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d698ce5f36bc644fcaf0eca6439a7fb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  graph: {fileID: 11400000, guid: 19b6e3499555347599f391d223d3924d, type: 2}
+  importPath: Assets/graph_export.json
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
