@@ -1,5 +1,7 @@
 # Digital Twin Factory - Node Graph Viewer
 
+![Project Screenshot](https://i.ibb.co/Q79WZ8P9/Screenshot-2026-03-06-at-04-00-10.png)
+
 ![Unity Version](https://img.shields.io/badge/Unity-2022.3+-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
