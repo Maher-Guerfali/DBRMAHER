@@ -9,6 +9,7 @@
 **Project Type:** Node-Based Visual Scripting System for Digital Twin Factory Simulation
 
 A powerful **node-based visual scripting system** built with Unity's GraphView. Design complex factory automation sequences, character animations, and environmental interactions without writing code. Perfect for digital twins, game logic, and interactive simulations.
+<img width="1226" height="676" alt="Screenshot 2026-03-06 at 04 00 25" src="https://github.com/user-attachments/assets/6995c74d-3b3c-4846-8238-8bc996c3ad2d" />
 
 ---
 
