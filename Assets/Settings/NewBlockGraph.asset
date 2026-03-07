@@ -50,11 +50,11 @@ MonoBehaviour:
         blockType: CompareBlock
         editorPosition: {x: 127.5, y: -221.5}
         inputs:
-        - rid: 4210444597739127490
-        - rid: 4210444597739127491
-        - rid: 4210444597739127492
+        - rid: 4210444677258936321
+        - rid: 4210444677258936322
+        - rid: 4210444677258936323
         outputs:
-        - rid: 4210444597739127493
+        - rid: 4210444677258936324
         operation: 2
         valueA: 0
         valueB: 0
@@ -63,7 +63,7 @@ MonoBehaviour:
       data:
         id: 1f7230c0
         blockType: FloatValue
-        editorPosition: {x: -280, y: -232}
+        editorPosition: {x: -78, y: -274.5}
         inputs: []
         outputs:
         - rid: 4210444597739127471
@@ -80,7 +80,7 @@ MonoBehaviour:
       data:
         id: 511e0619
         blockType: FloatValue
-        editorPosition: {x: -280, y: -103.5}
+        editorPosition: {x: -379.5, y: -105.5}
         inputs: []
         outputs:
         - rid: 4210444597739127473
@@ -221,31 +221,31 @@ MonoBehaviour:
         name: Next
         direction: 1
         type: 0
-    - rid: 4210444597739127490
+    - rid: 4210444677258936321
       type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
       data:
-        id: fb6dfddd
+        id: 452e0a4a
         name: Start
         direction: 0
         type: 0
-    - rid: 4210444597739127491
+    - rid: 4210444677258936322
       type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
       data:
-        id: 5ee97498
+        id: 64f29864
         name: A
         direction: 0
         type: 1
-    - rid: 4210444597739127492
+    - rid: 4210444677258936323
       type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
       data:
-        id: 85ca8869
+        id: 1da11a02
         name: B
         direction: 0
         type: 1
-    - rid: 4210444597739127493
+    - rid: 4210444677258936324
       type: {class: Port, ns: BlockSystem.Core, asm: Assembly-CSharp}
       data:
-        id: 378f92f9
+        id: aed72e8b
         name: Next
         direction: 1
         type: 0
